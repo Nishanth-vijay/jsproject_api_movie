@@ -3,7 +3,7 @@ function getmovie(){
     let data =inp.value
     console.log(data);
     let dom = document.getElementById("l12")
-    dom.remove();
+   dom.style.display = "none";
     fetchdata(data)
 }
 async function fetchdata(data){
