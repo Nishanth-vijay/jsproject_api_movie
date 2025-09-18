@@ -95,6 +95,8 @@ let div2 = document.getElementById("div2")
 div2.innerHTML=`
 <h1> Title : ${title} </h1>  
 <h1> Realease year : ${releaseYear} </h1> 
+<br>
+<h2> Actors </h2>  
 
  `
 // <h5> Description : ${description} </h5>   <h3> genre : ${genre} </h3>  <h3> Runtime : ${runTime}  Min</h3> <h4> audienceScore : ${audienceScore} ,wantToSeeCount : ${wantToSeeCount} ,criticsScore : ${criticsScore}</h4>  
